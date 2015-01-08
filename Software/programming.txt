@@ -1,0 +1,2 @@
+avrdude -c usbasp -p t48 -U flash:w:main.hex
+avrdude -c usbasp -p t48 -U lfuse:w:0xee:m -U hfuse:w:0xd7:m -U efuse:w:0xff:m
